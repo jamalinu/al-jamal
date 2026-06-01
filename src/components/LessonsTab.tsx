@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import confetti from "canvas-confetti";
 import { Lesson, LessonStep, UserProfile } from "../types";
-import { LESSONS, ARABISMS_DATABASE, ArabismWord } from "../data";
+import { LESSONS, DAILY_WORDS as ARABISMS_DATABASE } from "../data";
 import {
   BookOpen,
   CheckCircle,
