@@ -784,7 +784,7 @@ export const ARABISMS_DATABASE: ArabismWord[] = [
     exampleAr: "أحب شرب كوب (طاسة) من الشوكولاتة الساخنة."
   }
   // NUEVAS LECCIONES — añadir al array LESSONS en data.ts (l10 a l30)
-
+,
   {
     id: "l10",
     title: "Los Artículos: El, La, Los, Las",
