@@ -32,6 +32,7 @@ import {
   X,
   Info
 } from "lucide-react";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { UserProfile, Lesson, Tutor, Achievement, ScheduledSession, Message, SavedSession } from "./types";
 import { TUTORS, INITIAL_ACHIEVEMENTS, LESSONS, DAILY_WORDS } from "./data";
 import {
@@ -3221,6 +3222,7 @@ export default function App() {
           <span className="text-[9px] uppercase tracking-wider font-extrabold">AJUSTES</span>
         </button>
       </footer>
+      <SpeedInsights />
     </div>
   );
 }
