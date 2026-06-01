@@ -12,7 +12,7 @@ export const TUTORS: Tutor[] = [
     tagline: "¡La gramática española es más fácil si entiendes tu propio idioma!"
   },
   {
-    id: "carlos",
+    id: "jamal", // Corregido de "carlos" a "jamal" para mantener coherencia
     name: "Profesor Jamal",
     avatar: "👨‍🏫",
     level: "Nivel Intermedio (A2-B1)",
@@ -88,7 +88,7 @@ export const DAILY_WORDS = [
 export const LESSONS: Lesson[] = [
   {
     id: "l1",
-    title: "El Choque de Géneros Gramaticales (انعكas الجنس)",
+    title: "El Choque de Géneros Gramaticales (انعكاس الجنس)", // Corregido typo árabe
     titleAr: "عكس الجنس بين الإسبانية والعربية",
     description: "Aprende cómo algunos sustantivos cambian de masculino a femenino entre árabe y español.",
     descriptionAr: "تعلم كيف ينعكس جنس الكلمات (الذكر والأنثى) بين اللغتين لتفادي الأخطاء الشائعة.",
@@ -107,7 +107,7 @@ Esto suele causar mucha confusión al principio. Veamos dos ejemplos icónicos d
         comparativeCard: {
           spanish: "El Sol y La Luna",
           arabic: "الشمس والقمر",
-          explanation: "El Sol es masculino en español mas femenino en árabe. La Luna es femenina en español mas masculina en árabe."
+          explanation: "El Sol es masculino en español y femenino en árabe. La Luna es femenina en español y masculina en árabe."
         }
       },
       {
@@ -193,14 +193,14 @@ En español es **obligatorio** usar un verbo puente cobrando vida en dos variant
             "Yo tener de Marruecos"
           ],
           correctAnswer: "Yo soy de Marruecos",
-          arabicGrammarTip: "للأصل والجنسية نستخدم دائماً فعل SER (Soy)."
+          arabicGrammarTip: "للأصل والجنسية نستخدم دائماً juego de palabras con el verbo SER (Soy)."
         }
       },
       {
         type: "exercise",
         exercise: {
           question: "Si quieres expresar tu estado actual 'Estoy cansado hoy' (حالة مؤقتة), ¿cuál usas?",
-          questionAr: "للتعبير عن حالة مؤقتة مثل 'أنا متعب اليوم'، أي العبارات أصح؟",
+          questionAr: "للتعبير عن حالة مؤقتة مثل 'أنا متعب اليوم'، أي العبارات أصح？",
           options: [
             "Soy cansado hoy",
             "Estoy cansado hoy",
@@ -217,7 +217,7 @@ En español es **obligatorio** usar un verbo puente cobrando vida en dos variant
     title: "Palabras Hermanas: Arabismos en el Español",
     titleAr: "الكلمات التوأم: الكلمات ذات الأصل العربي بالإسبانية",
     description: "Explora la increíble conexión de Al-Ándalus en más de 4000 vocablos españoles comunes.",
-    descriptionAr: "اكتشف الرابط الأندلسi المذهل من خلال كلمات شائعة نستخدمها يومياً بلفظ مشابه جداً.",
+    descriptionAr: "اكتشف الرابط الأندلسي المذهل من خلال كلمات شائعة نستخدمها يومياً بلفظ مشابه جداً.",
     category: "Culture",
     level: "A2",
     xpReward: 90,
@@ -383,7 +383,7 @@ En español, la CH es una combinatoria oclusiva africada sorda: comienza como un
     title: "Expresiones de Hospitalidad y Mesa Compartida",
     titleAr: "تعابير الكرم وحفاوة الضيافة الأندلسية المشتركة",
     description: "Explora cómo las fórmulas sociales y de cortesía españolas tienen calcos de significado asombrosos en las costumbres árabes.",
-    descriptionAr: "استكشف كيف تتشابه المجاملات الاجتماعية والترحيب بالإسبانية مع عادات الضيافة العربية بشكل مدهsh.",
+    descriptionAr: "استكشف كيف تتشابه المجاملات الاجتماعية والترحيب بالإسبانية مع عادات الضيافة العربية بشكل مدهش.",
     category: "Culture",
     level: "A2",
     xpReward: 110,
@@ -393,7 +393,7 @@ En español, la CH es una combinatoria oclusiva africada sorda: comienza como un
         title: "Mi casa es tu casa y Al-Bayt baytuk",
         content: `Una de las grandes muestras de calidez del español es la famosa frase de bienvenida 'Mi casa es tu casa'. Se dice a visitas o huéspedes con total generosidad.
 
-Esta expresión no abunda en el latín o en Europa del Norte, pero en el mundo árabe es de traducción literal: 'Al-bayt baytuk' (البيت بيتك). El legado andalusí impregnó este espíritu de hospitalidad en los hogares hispanohablantes.`,
+Esta expresión no abunda en el latín o en Europa del Norte, pero en el mundo árabe es de traducción literal: 'Al-bayt baytuk' (البيت بيتك). El legado andalusí impregnó este espíritu de hospitalidad in los hogares hispanohablantes.`,
         contentAr: `عبارة الترحيب الإسبانية الشهيرة 'Mi casa es tu casa' تطابق تماماً العبارة العربية الاصيلة للكرم والترحاب 'البيت بيتك'. هذا التماثل الثقافي العاطفي يبرز كرم الضيافة الأندلسي الذي تغلغل في النسيج الاجتماعي الإسباني.`,
         comparativeCard: {
           spanish: "Estás en tu casa. / Mi casa es tu casa.",
@@ -435,7 +435,7 @@ Esto equivale con precisión absoluta al 'Bil-hana' wa-sh-shifa'' (بالهنا�
     title: "El Sistema Vocálico Español vs Árabe",
     titleAr: "النظام الصوتي للحركات: الإسبانية مقابل العربية",
     description: "Domina el triángulo rígido de las 5 vocales hispanas y evita las confusiones comunes entre E/I y O/U.",
-    descriptionAr: "تقن حركات التشكيل الخمس في الإسبانية متغلباً على الخلط الشائع بين الكسرة والياء والضمة والواو.",
+    descriptionAr: "تقن حركات التشكيل الخمس in الإسبانية متغلباً على الخلط الشائع بين الكسرة والياء والضمة والواو.",
     category: "Grammar",
     level: "B1",
     xpReward: 110,
@@ -497,7 +497,7 @@ En español, no existen las variaciones sutiles (alófonos); una 'E' siempre es 
             "Puso"
           ],
           correctAnswer: "Piso",
-          arabicGrammarTip: "كلمة Piso تعني شقة بكسر الباء الصامتة (I), mientras que Peso significa peso (de pesar o kilos)."
+          arabicGrammarTip: "كلمة Piso تعني شقة بكسr الباء الصامتة (I), mientras que Peso significa peso (de pesar o kilos)."
         }
       }
     ]
@@ -561,7 +561,7 @@ Intentar pronunciarla como una 'هـ' (Hā') es un marcador de acento muy eviden
       {
         type: "exercise",
         exercise: {
-          question: "¿Como se pronuncia de manera correcta la palabra 'Huevo' (بيض)?",
+          question: "¿Cómo se pronuncia de manera correcta la palabra 'Huevo' (بيض)?",
           questionAr: "كيف نلفظ كلمة 'Huevo' (بيض) بنسق سليم؟",
           options: [
             "Pronunciando una 'J' suave (Juevo)",
@@ -579,7 +579,7 @@ Intentar pronunciarla como una 'هـ' (Hā') es un marcador de acento muy eviden
     title: "El Comercio y el Arte del Regatear",
     titleAr: "التجارة وتراث المساومة الأندلسية المشتركة",
     description: "Explora la herencia andalusí en el lenguaje comercial, mercantil y las formas sociales de negociación.",
-    descriptionAr: "اكتشف الإرث الأندلسي في لغة السوق والمعاملات الاقتصادية وعادات المساومة المشتركة بين الثقافتين.",
+    descriptionAr: "اكتشف الإرث الأندلسي في لغة السوق والمعاملات الاقتصادية وعادات المساومة المشتركة entre الثقافتين.",
     category: "Culture",
     level: "B1",
     xpReward: 100,
@@ -631,869 +631,15 @@ Por ejemplo, despedirse diciendo: **'Vaya con Dios'** o **'Que Dios le guarde'**
       {
         type: "exercise",
         exercise: {
-          question: "¿Cuál de estos vocablos españoles sobre metales preciosos proviene del término árabe 'Qirat' (قیراط)?",
-          questionAr: "أي المفردات الإسبانية الشهيرة بالذهب والمعادن تعود لجذرها العربي 'قيراط'؟",
+          question: "¿Qué frase de cortesía comercial española es un calco directo de 'Fi amanillah' (في أمان الله)?", // Completado el corte de tu archivo
+          questionAr: "أي من عبارات التوديع التجارية في الإسبانية تعد محاكاة لثقافة التمني بالبركة؟",
           options: [
-            "Quilate",
-            "Bronce",
-            "Plata"
+            "Págueme ahora",
+            "Vaya con Dios",
+            "No hay rebaja"
           ],
-          correctAnswer: "Quilate",
-          arabicGrammarTip: "تذكر دائماً أن عيار الذهب (Quilate) هو القياس التاريخي العربي المشترك."
-        }
-      }
-    ]
-  }
-];
-
-export interface ArabismWord {
-  spanish: string;
-  arabic: string;
-  meaning: string;
-  etymology: string;
-  category: string;
-  example: string;
-  exampleAr: string;
-}
-
-export const ARABISMS_DATABASE: ArabismWord[] = [
-  {
-    spanish: "Almohada",
-    arabic: "المخدة",
-    meaning: "Cojín sobre el que se apoya la cabeza en la cama.",
-    etymology: "Del árabe 'al-mukhaddah' (reclinatorio de mejilla).",
-    category: "Hogar",
-    example: "Prefiero dormir con una almohada baja.",
-    exampleAr: "أفضل النوم بمخدة منخفضة."
-  },
-  {
-    spanish: "Aceite",
-    arabic: "الزيت",
-    meaning: "Líquido graso que se obtiene de frutos o semillas, especialmente de oliva.",
-    etymology: "Del árabe 'az-zayt' (jugo de aceituna o aceite).",
-    category: "Alimentos",
-    example: "El aceite de oliva andaluz es el mejor del mundo.",
-    exampleAr: "زيت الزيتون الأندلسي هو الأفضل في العالم."
-  },
-  {
-    spanish: "Azúcar",
-    arabic: "السكر",
-    meaning: "Sustancia cristalina dulce extraída de la caña o remolacha.",
-    etymology: "Del árabe 'as-sukkar'.",
-    category: "Alimentos",
-    example: "No le pongas mucha azúcar al té.",
-    exampleAr: "لا تضع الكثير من السكر في الشاي."
-  },
-  {
-    spanish: "Alberca",
-    arabic: "البركة",
-    meaning: "Depósito de agua para riego o recreo, piscina o estanque antiguo.",
-    etymology: "Del árabe 'al-birkah' (estanque de agua).",
-    category: "Arquitectura",
-    example: "Los niños nadan en la alberca del pueblo.",
-    exampleAr: "يسبح الأطفال في بركة البلدة."
-  },
-  {
-    spanish: "Almacén",
-    arabic: "المخزن",
-    meaning: "Edificio o local donde se guardan o venden mercancías.",
-    etymology: "Del árabe 'al-makhzan' (depósito de provisiones).",
-    category: "Comercio",
-    example: "El almacén del puerto está lleno de trigo.",
-    exampleAr: "مخزن الميناء مليء بالقمح."
-  },
-  {
-    spanish: "Alcalde",
-    arabic: "القاضي",
-    meaning: "Autoridad ejecutiva de un municipio o ayuntamiento.",
-    etymology: "Del árabe 'al-qadi' (el juez que decide).",
-    category: "Sociedad",
-    example: "El alcalde de Córdoba inauguró el centro cultural.",
-    exampleAr: "افتتح قاضي (رئيس بلدية) قرطبة المركز الثقافي."
-  },
-  {
-    spanish: "Tarifa",
-    arabic: "تعريفة",
-    meaning: "Tabla de precios o derechos de aduana regulados.",
-    etymology: "Del árabe 'ta'rifah' (anuncio, definición).",
-    category: "Comercio",
-    example: "La tarifa móvil incluye llamadas ilimitadas.",
-    exampleAr: "تتضمن تعريفة الجوال مكالمات غير محدودة."
-  },
-  {
-    spanish: "Aduana",
-    arabic: "الديوان",
-    meaning: "Oficina pública encargada de registrar los bienes que entran y salen.",
-    etymology: "Del árabe 'ad-diwan' (registro de cuentas o consejo).",
-    category: "Sociedad",
-    example: "Pasamos el control de maletas en la aduana.",
-    exampleAr: "مررنا بفحص الحقائب في الديوان (الجمارك)."
-  },
-  {
-    spanish: "Barrio",
-    arabic: "برّي",
-    meaning: "Cada una de las partes de un núcleo urbano.",
-    etymology: "Del árabe 'barri' (exterior, afueras de la muralla).",
-    category: "Arquitectura",
-    example: "El barrio del Albaicín en Granada conserva su trazo morisco.",
-    exampleAr: "حي البيازين في غرناطة يحافظ على تخطيطه العربي."
-  },
-  {
-    spanish: "Azafrán",
-    arabic: "زعفران",
-    meaning: "Especia aromática de color rojo-anaranjado y sabor fuerte.",
-    etymology: "Del árabe 'za'faran'.",
-    category: "Alimentos",
-    example: "La paella requiere unas hebras de azafrán.",
-    exampleAr: "تتطلب الباييلا بعض خيوط الزعفران."
-  },
-  {
-    spanish: "Jinete",
-    arabic: "زناتي",
-    meaning: "Persona experta en montar a caballo.",
-    etymology: "De 'zenatis' (tribu bereber de Zenata, famosos caballeros).",
-    category: "Sociedad",
-    example: "El jinete cruzó el campo a galope.",
-    exampleAr: "عبر الخيال (الزناتي) الحقل مستعرضاً ركوبه."
-  },
-  {
-    spanish: "Ajedrez",
-    arabic: "الشطرنج",
-    meaning: "Juego de mesa táctico de 64 escaques y 32 piezas.",
-    etymology: "Del árabe 'ash-shatranj'.",
-    category: "Sociedad",
-    example: "Él prefiere jugar ajedrez que ver televisión.",
-    exampleAr: "هو يفضل لعب الشطرنج على مشاهدة التلفاز."
-  },
-  {
-    spanish: "Zanahoria",
-    arabic: "سفنارية / جزر",
-    meaning: "Planta con raíz comestible de color naranja dulzona.",
-    etymology: "Del hispanoárabe 'safunnariyah'.",
-    category: "Alimentos",
-    example: "Cocina las zanahorias al vapor para conservar nutrición.",
-    exampleAr: "اطبخ الجزر بالبخار للاحتفاظ بقيمته الغذائية."
-  },
-  {
-    spanish: "Taza",
-    arabic: "طاسة",
-    meaning: "Contenedor de líquidos con asa, de porcelana o barro.",
-    etymology: "Del árabe 'tassah' (escudilla de beber).",
-    category: "Hogar",
-    example: "Me encanta beber una taza de chocolate caliente.",
-    exampleAr: "أحب شرب كوب (طاسة) من الشوكولاتة الساخنة."
-  }
-  // NUEVAS LECCIONES — añadir al array LESSONS en data.ts (l10 a l30)
-,
-  {
-    id: "l10",
-    title: "Los Artículos: El, La, Los, Las",
-    titleAr: "أدوات التعريف في الإسبانية",
-    description: "Domina el sistema de artículos definidos e indefinidos y evita los errores más comunes de los arabófonos.",
-    descriptionAr: "أتقن أدوات التعريف والتنكير وتجنب الأخطاء الشائعة للناطقين بالعربية.",
-    category: "Grammar",
-    level: "A1",
-    xpReward: 80,
-    steps: [
-      {
-        type: "theory",
-        title: "El artículo definido (أداة التعريف)",
-        content: `En español, todo sustantivo lleva un artículo que concuerda en género y número:\n\n- **El** (masculino singular): el libro, el sol\n- **La** (femenino singular): la luna, la casa\n- **Los** (masculino plural): los libros\n- **Las** (femenino plural): las casas\n\nEn árabe, existe solo una partícula de definición: **الـ** para todos los géneros y números. En español hay cuatro formas distintas.`,
-        contentAr: `في العربية، نستخدم (الـ) للتعريف بصرف النظر عن الجنس أو العدد.\nلكن في الإسبانية يوجد أربعة أشكال مختلفة:\n- El: للمذكر المفرد\n- La: للمؤنث المفرد\n- Los: للمذكر الجمع\n- Las: للمؤنث الجمع\nيجب حفظها جيداً لأن كل اسم يطلب شكلاً محدداً!`,
-        comparativeCard: {
-          spanish: "El libro / La mesa / Los libros / Las mesas",
-          arabic: "الكتاب / الطاولة / الكتب / الطاولات",
-          explanation: "El árabe usa una sola partícula الـ para todo; el español distingue cuatro formas según género y número."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Cuál es el artículo correcto para 'casa' (بيت/منزل)?",
-          questionAr: "ما هي أداة التعريف الصحيحة لكلمة 'casa' (منزل)؟",
-          options: ["El casa", "La casa", "Los casa"],
-          correctAnswer: "La casa",
-          arabicGrammarTip: "كلمة casa مؤنثة في الإسبانية، لذا تأخذ أداة التعريف La."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "Elige el artículo correcto: '___ estudiantes estudian mucho'",
-          questionAr: "اختر أداة التعريف المناسبة: '___ الطلاب يدرسون كثيراً'",
-          options: ["El", "La", "Los"],
-          correctAnswer: "Los",
-          arabicGrammarTip: "estudiantes جمع مذكر، لذا نستخدم Los للجمع المذكر."
-        }
-      }
-    ]
-  },
-  {
-    id: "l11",
-    title: "Los Números: Del 1 al 100",
-    titleAr: "الأرقام من 1 إلى 100",
-    description: "Aprende los números en español y descubre las sorprendentes similitudes con el árabe.",
-    descriptionAr: "تعلم الأرقام بالإسبانية واكتشف أوجه التشابه المدهشة مع العربية.",
-    category: "Grammar",
-    level: "A1",
-    xpReward: 70,
-    steps: [
-      {
-        type: "theory",
-        title: "Los números del 1 al 20",
-        content: `Los números en español tienen un origen mixto latino y árabe:\n\n1 uno, 2 dos, 3 tres, 4 cuatro, 5 cinco\n6 seis, 7 siete, 8 ocho, 9 nueve, 10 diez\n11 once, 12 doce, 13 trece, 14 catorce, 15 quince\n16 dieciséis, 17 diecisiete, 18 dieciocho, 19 diecinueve, 20 veinte\n\nCuriosidad: el sistema de **numeración arábiga** (1, 2, 3...) que usa España y todo el mundo occidental fue introducido por los árabes en la Edad Media.`,
-        contentAr: `أرقام الإسبانية تمتزج فيها الأصول اللاتينية مع الإرث العربي.\nومن المثير للاهتمام أن نظام الترقيم المستخدم عالمياً (١، ٢، ٣...) هو نفسه الذي أدخله العرب إلى أوروبا في القرون الوسطى عبر الأندلس!\nكلمة Cero (صفر) نفسها مأخوذة من الكلمة العربية (صِفر).`,
-        comparativeCard: {
-          spanish: "Cero → del árabe Sifr (صفر)",
-          arabic: "صِفر → إسبانيا → أوروبا كلها",
-          explanation: "La palabra 'cero' en todos los idiomas europeos proviene del árabe 'sifr', introducido por los matemáticos árabes medievales."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿De qué palabra árabe proviene el término español 'cero'?",
-          questionAr: "من أي كلمة عربية تأتي كلمة 'cero' (الصفر) في الإسبانية؟",
-          options: ["Zara (زارا)", "Sifr (صفر)", "Zafir (زفير)"],
-          correctAnswer: "Sifr (صفر)",
-          arabicGrammarTip: "الصفر (Sifr) كانت من أعظم الهدايا الرياضية العربية لأوروبا في العصور الوسطى."
-        }
-      }
-    ]
-  },
-  {
-    id: "l12",
-    title: "Presente de Indicativo: Verbos -AR",
-    titleAr: "المضارع الإخباري: أفعال المجموعة الأولى",
-    description: "Aprende a conjugar los verbos regulares en -AR en presente, el tiempo más usado del español.",
-    descriptionAr: "تعلم تصريف أفعال المجموعة الأولى (-AR) في زمن المضارع الأكثر استخداماً.",
-    category: "Grammar",
-    level: "A1",
-    xpReward: 90,
-    steps: [
-      {
-        type: "theory",
-        title: "Conjugación de verbos -AR",
-        content: `Los verbos en -AR son los más numerosos en español. Para conjugarlos en presente, quita el -AR y añade estas terminaciones:\n\nYo → -o (hablo)\nTú → -as (hablas)\nÉl/Ella → -a (habla)\nNosotros → -amos (hablamos)\nVosotros → -áis (habláis)\nEllos → -an (hablan)\n\nEjemplos comunes: hablar, trabajar, estudiar, caminar, comprar, escuchar.`,
-        contentAr: `أفعال المجموعة الأولى (-AR) هي الأكثر شيوعاً في الإسبانية.\nللتصريف في المضارع، نحذف (-AR) ونضيف نهايات محددة:\n- أنا (Yo): أضيف -o\n- أنت (Tú): أضيف -as\n- هو/هي (Él/Ella): أضيف -a\n- نحن (Nosotros): أضيف -amos\n- أنتم (Vosotros): أضيف -áis\n- هم (Ellos): أضيف -an`,
-        comparativeCard: {
-          spanish: "Yo hablo / Tú hablas / Él habla",
-          arabic: "أنا أتكلم / أنت تتكلم / هو يتكلم",
-          explanation: "Igual que en árabe, los pronombres personales en español cambian la forma del verbo. La diferencia es que en español los pronombres son opcionales pero las terminaciones son obligatorias."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Cómo se conjuga 'trabajar' para 'Yo'?",
-          questionAr: "كيف نصرف فعل 'trabajar' (يعمل) مع ضمير 'Yo' (أنا)؟",
-          options: ["Yo trabajas", "Yo trabajo", "Yo trabajar"],
-          correctAnswer: "Yo trabajo",
-          arabicGrammarTip: "مع ضمير Yo (أنا)، نحذف -AR ونضيف -o: trabaj + o = trabajo."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "Completa: 'Ellos ___ español todos los días'",
-          questionAr: "أكمل الجملة: 'هم يدرسون الإسبانية كل يوم'",
-          options: ["estudia", "estudiamos", "estudian"],
-          correctAnswer: "estudian",
-          arabicGrammarTip: "مع ضمير Ellos (هم)، نضيف النهاية -an: estudi + an = estudian."
-        }
-      }
-    ]
-  },
-  {
-    id: "l13",
-    title: "Los Colores y sus Géneros",
-    titleAr: "الألوان وتطابقها مع الجنس النحوي",
-    description: "Aprende los colores en español y cómo concuerdan en género con el sustantivo que acompañan.",
-    descriptionAr: "تعلم الألوان بالإسبانية وكيف تتطابق مع جنس الاسم الذي تصفه.",
-    category: "Grammar",
-    level: "A1",
-    xpReward: 75,
-    steps: [
-      {
-        type: "theory",
-        title: "Los colores cambian de género",
-        content: `En español, la mayoría de los colores tienen forma masculina y femenina:\n\n- Rojo / Roja (أحمر/حمراء)\n- Blanco / Blanca (أبيض/بيضاء)\n- Negro / Negra (أسود/سوداء)\n- Amarillo / Amarilla (أصفر/صفراء)\n\nAlgunos colores son invariables (no cambian):\n- Azul (أزرق) — igual para masculino y femenino\n- Verde (أخضر) — igual para ambos\n- Naranja (برتقالي) — invariable`,
-        contentAr: `في الإسبانية، معظم الألوان تتغير حسب جنس الاسم الذي تصفه:\n- Rojo (أحمر للمذكر) → Roja (حمراء للمؤنث)\n- Blanco (أبيض) → Blanca (بيضاء)\nلكن بعض الألوان لا تتغير مثل Azul وVerde وNaranja.\nهذا يشبه نظام العربية حيث تتغير الألوان بين المذكر والمؤنث.`,
-        comparativeCard: {
-          spanish: "El coche rojo / La casa roja",
-          arabic: "السيارة الحمراء / البيت الأحمر",
-          explanation: "Como en árabe, los adjetivos de color en español concuerdan en género con el sustantivo. 'Rojo' se convierte en 'Roja' para sustantivos femeninos."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Cómo se dice 'la flor blanca' en español?",
-          questionAr: "كيف نقول 'الزهرة البيضاء' بالإسبانية؟",
-          options: ["La flor blanco", "La flor blanca", "El flor blanca"],
-          correctAnswer: "La flor blanca",
-          arabicGrammarTip: "كلمة flor (زهرة) مؤنثة، لذا نستخدم أداة التعريف La والصفة blanca المؤنثة."
-        }
-      }
-    ]
-  },
-  {
-    id: "l14",
-    title: "La Familia: Vocabulario Esencial",
-    titleAr: "العائلة: المفردات الأساسية",
-    description: "Aprende el vocabulario de la familia en español y compara los términos con el árabe.",
-    descriptionAr: "تعلم مفردات العائلة بالإسبانية وقارنها مع نظيراتها في العربية.",
-    category: "Culture",
-    level: "A1",
-    xpReward: 70,
-    steps: [
-      {
-        type: "theory",
-        title: "Miembros de la familia (أفراد العائلة)",
-        content: `El vocabulario familiar en español es bastante regular:\n\n- Padre (أب) / Madre (أم)\n- Hijo (ابن) / Hija (ابنة)\n- Hermano (أخ) / Hermana (أخت)\n- Abuelo (جد) / Abuela (جدة)\n- Tío (عم/خال) / Tía (عمة/خالة)\n- Primo (ابن عم/خال) / Prima (ابنة عم/خال)\n- Marido/Esposo (زوج) / Mujer/Esposa (زوجة)\n\nNota: en español no se distingue entre tío paterno y materno, a diferencia del árabe.`,
-        contentAr: `مفردات العائلة في الإسبانية منتظمة وسهلة الحفظ.\nفرق مهم: في العربية نميز بين العم والخال والعمة والخالة، لكن في الإسبانية:\n- Tío = عم أو خال (لا فرق!)\n- Tía = عمة أو خالة (لا فرق!)\nهذا تبسيط كبير مقارنة بالعربية الغنية في وصف روابط القرابة.`,
-        comparativeCard: {
-          spanish: "Tío (عم أو خال) / Tía (عمة أو خالة)",
-          arabic: "عم / خال / عمة / خالة",
-          explanation: "El español simplifica los vínculos familiares usando un solo término donde el árabe distingue la línea paterna y materna."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Cómo se dice 'el hijo de mi tío' en español?",
-          questionAr: "كيف نقول 'ابن عمي أو ابن خالي' في الإسبانية؟",
-          options: ["Mi sobrino", "Mi primo", "Mi hermano"],
-          correctAnswer: "Mi primo",
-          arabicGrammarTip: "في الإسبانية، Primo يعني ابن العم أو ابن الخال بدون تمييز بين الجانبين."
-        }
-      }
-    ]
-  },
-  {
-    id: "l15",
-    title: "El Tiempo y las Estaciones",
-    titleAr: "الطقس والفصول الأربعة",
-    description: "Aprende a hablar del tiempo meteorológico y las estaciones del año.",
-    descriptionAr: "تعلم كيف تتحدث عن الطقس وفصول السنة الأربعة بالإسبانية.",
-    category: "Culture",
-    level: "A1",
-    xpReward: 75,
-    steps: [
-      {
-        type: "theory",
-        title: "Hablar del tiempo (الحديث عن الطقس)",
-        content: `Para hablar del tiempo en español se usa el verbo **hacer** (en lugar de 'ser' o 'estar'):\n\n- Hace calor (الجو حار)\n- Hace frío (الجو بارد)\n- Hace sol (الشمس مشرقة)\n- Hace viento (الهواء يهب)\n- Está nublado (الجو غائم)\n- Está lloviendo / Llueve (تمطر)\n- Nieva (يثلج)\n\nLas estaciones: Primavera (ربيع), Verano (صيف), Otoño (خريف), Invierno (شتاء).`,
-        contentAr: `التعبير عن الطقس في الإسبانية يستخدم فعل Hacer (يفعل/يصنع) بطريقة غير متوقعة!\nنقول: Hace calor (الجو حار) حرفياً: "يصنع حرارة"\nهذا مختلف عن العربية التي تستخدم: الجو حار مباشرة.\nالاستثناء: للغيوم والمطر نستخدم Estar:\n- Está nublado (الجو غائم)\n- Está lloviendo (تمطر الآن)`,
-        comparativeCard: {
-          spanish: "Hace calor / Hace frío / Hace sol",
-          arabic: "الجو حار / الجو بارد / الشمس مشرقة",
-          explanation: "El español usa el verbo 'hacer' para el tiempo meteorológico — un uso único que no tiene equivalente literal en árabe."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Cómo se dice 'hace mucho calor hoy' en español?",
-          questionAr: "كيف نقول 'الجو حار جداً اليوم' بالإسبانية؟",
-          options: ["Está mucho calor hoy", "Hace mucho calor hoy", "Es mucho calor hoy"],
-          correctAnswer: "Hace mucho calor hoy",
-          arabicGrammarTip: "للتعبير عن درجة الحرارة والرياح والشمس نستخدم دائماً فعل Hacer."
-        }
-      }
-    ]
-  },
-  {
-    id: "l16",
-    title: "La Comida y el Restaurante",
-    titleAr: "الطعام والمطعم",
-    description: "Vocabulario esencial para pedir comida, entender menús y hablar de gastronomía española.",
-    descriptionAr: "مفردات أساسية لطلب الطعام وفهم القوائم والحديث عن المطبخ الإسباني.",
-    category: "Culture",
-    level: "A1",
-    xpReward: 80,
-    steps: [
-      {
-        type: "theory",
-        title: "En el restaurante (في المطعم)",
-        content: `Frases clave para el restaurante:\n\n- **¿Me puede traer la carta?** (هل يمكنك إحضار القائمة؟)\n- **Quiero pedir...** (أريد أن أطلب...)\n- **¿Qué recomienda?** (ماذا تنصح؟)\n- **La cuenta, por favor** (الحساب من فضلك)\n- **Está muy rico/delicioso** (إنه لذيذ جداً)\n\nVocabulario básico:\n- Desayuno (فطور) / Almuerzo (غداء) / Cena (عشاء)\n- Agua (ماء) / Pan (خبز) / Carne (لحم) / Pescado (سمك)\n- Verduras (خضروات) / Postre (حلوى)`,
-        contentAr: `عند دخولك مطعماً إسبانياً، ستحتاج هذه العبارات الأساسية:\nطلب القائمة: ¿Me puede traer la carta?\nطلب الطعام: Quiero pedir + اسم الطبق\nطلب الحساب: La cuenta, por favor\n\nملاحظة ثقافية: في إسبانيا، الغداء (Almuerzo) هو الوجبة الرئيسية ويؤكل بين الساعة 2 و4 مساءً، والعشاء (Cena) يكون متأخراً بعد الساعة 9 ليلاً!`,
-        comparativeCard: {
-          spanish: "Almuerzo a las 2pm / Cena a las 10pm",
-          arabic: "الغداء الساعة 1 / العشاء الساعة 8",
-          explanation: "Los horarios de comida en España son notablemente más tardíos que en los países árabes — un choque cultural importante para los recién llegados."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Qué dices para pedir la cuenta en un restaurante?",
-          questionAr: "ماذا تقول لطلب الحساب في مطعم إسباني؟",
-          options: ["¿Me puede traer la carta?", "La cuenta, por favor", "¿Qué recomienda?"],
-          correctAnswer: "La cuenta, por favor",
-          arabicGrammarTip: "La cuenta = الحساب، وpor favor = من فضلك. عبارة مهمة جداً في المطاعم!"
-        }
-      }
-    ]
-  },
-  {
-    id: "l17",
-    title: "Los Verbos Irregulares: Ser y Tener",
-    titleAr: "الأفعال الشاذة: كون وامتلاك",
-    description: "Domina los dos verbos irregulares más importantes del español: SER y TENER.",
-    descriptionAr: "أتقن فعلي الكينونة والامتلاك الشاذين الأكثر أهمية في الإسبانية.",
-    category: "Grammar",
-    level: "A1",
-    xpReward: 90,
-    steps: [
-      {
-        type: "theory",
-        title: "El verbo TENER (امتلاك)",
-        content: `**TENER** (يملك/عنده) es irregular. Su conjugación:\n\nYo **tengo** (عندي)\nTú **tienes** (عندك)\nÉl/Ella **tiene** (عنده/عندها)\nNosotros **tenemos** (عندنا)\nVosotros **tenéis** (عندكم)\nEllos **tienen** (عندهم)\n\nUsos importantes:\n- Tener + edad: **Tengo 25 años** (عمري 25 سنة)\n- Tener + hambre/sed: **Tengo hambre** (أنا جائع)\n- Tener + razón: **Tienes razón** (أنت على حق)`,
-        contentAr: `فعل TENER (يملك) من أكثر الأفعال الشاذة استخداماً.\nفرق مهم عن العربية:\nفي العربية نقول: "أنا جائع" (صفة مباشرة)\nفي الإسبانية نقول: "Tengo hambre" (أملك جوعاً) حرفياً!\nهذا استخدام غير مألوف للمتعلم العربي لأننا نستخدم TENER بدلاً من ESTAR للتعبير عن الحالات الجسدية مثل الجوع والعطش والنعاس.`,
-        comparativeCard: {
-          spanish: "Tengo hambre / Tengo sed / Tengo sueño",
-          arabic: "أنا جائع / أنا عطشان / أنا نعسان",
-          explanation: "El español usa TENER (tener hambre, sed, sueño) donde el árabe usa adjetivos directos. Es un calco estructural único del español."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Cómo se dice 'tengo 30 años' correctamente?",
-          questionAr: "كيف نعبر عن العمر بالإسبانية: 'عمري 30 سنة'؟",
-          options: ["Soy 30 años", "Estoy 30 años", "Tengo 30 años"],
-          correctAnswer: "Tengo 30 años",
-          arabicGrammarTip: "للتعبير عن العمر في الإسبانية، نستخدم TENER وليس SER أو ESTAR: Tengo + العمر + años."
-        }
-      }
-    ]
-  },
-  {
-    id: "l18",
-    title: "Preguntar y Responder: Las Interrogativas",
-    titleAr: "الاستفهام والإجابة: أدوات السؤال",
-    description: "Aprende las palabras interrogativas del español y cómo formular preguntas correctamente.",
-    descriptionAr: "تعلم أدوات الاستفهام الإسبانية وكيفية طرح الأسئلة بشكل صحيح.",
-    category: "Grammar",
-    level: "A1",
-    xpReward: 80,
-    steps: [
-      {
-        type: "theory",
-        title: "Las palabras interrogativas (أدوات الاستفهام)",
-        content: `Las palabras interrogativas en español siempre llevan tilde (acento):\n\n- **¿Qué?** (ماذا؟ / ما؟)\n- **¿Quién?** (من؟)\n- **¿Dónde?** (أين؟)\n- **¿Cuándo?** (متى؟)\n- **¿Cómo?** (كيف؟)\n- **¿Por qué?** (لماذا؟)\n- **¿Cuánto/a?** (كم؟)\n- **¿Cuál?** (أيّ؟)\n\nImportante: en español las preguntas se abren con **¿** y cierran con **?**`,
-        contentAr: `أدوات الاستفهام الإسبانية تشبه كثيراً نظيراتها العربية:\n- ¿Qué? = ماذا؟ / ما؟\n- ¿Quién? = من؟\n- ¿Dónde? = أين؟\n- ¿Cuándo? = متى؟\n- ¿Cómo? = كيف؟\n- ¿Por qué? = لماذا؟\n\nملاحظة مكتوبة: الإسبانية تضع علامة استفهام مقلوبة ¿ في بداية الجملة الاستفهامية!`,
-        comparativeCard: {
-          spanish: "¿Por qué? (لماذا؟) / ¿Para qué? (لأي غرض؟)",
-          arabic: "لماذا؟ / لأي غرض؟",
-          explanation: "El español distingue entre '¿Por qué?' (causa, لماذا) y '¿Para qué?' (finalidad, لأي غرض). Una distinción que no existe en árabe con la misma claridad."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Qué palabra usas para preguntar 'dónde' vive alguien?",
-          questionAr: "أي كلمة استفهامية تستخدم لسؤال شخص عن مكان إقامته؟",
-          options: ["¿Cuándo vives?", "¿Dónde vives?", "¿Cómo vives?"],
-          correctAnswer: "¿Dónde vives?",
-          arabicGrammarTip: "¿Dónde? تعادل 'أين؟' في العربية، وتستخدم للسؤال عن المكان."
-        }
-      }
-    ]
-  },
-  {
-    id: "l19",
-    title: "El Cuerpo Humano",
-    titleAr: "جسم الإنسان",
-    description: "Vocabulario del cuerpo humano en español con comparaciones gramaticales útiles.",
-    descriptionAr: "مفردات أعضاء جسم الإنسان بالإسبانية مع مقارنات نحوية مفيدة.",
-    category: "Grammar",
-    level: "A1",
-    xpReward: 75,
-    steps: [
-      {
-        type: "theory",
-        title: "Las partes del cuerpo (أعضاء الجسم)",
-        content: `Vocabulario esencial del cuerpo humano:\n\n- Cabeza (رأس) / Cara (وجه)\n- Ojo (عين) / Ojos (عيون)\n- Nariz (أنف) — ¡femenino!\n- Boca (فم) / Dientes (أسنان)\n- Oreja (أذن) / Oído (السمع/الأذن الداخلية)\n- Cuello (رقبة) / Hombro (كتف)\n- Brazo (ذراع) / Mano (يد)\n- Pierna (ساق) / Pie (قدم)\n- Corazón (قلب) / Estómago (معدة)\n\nPara decir que algo te duele: **Me duele** + parte del cuerpo.`,
-        contentAr: `تعلم أسماء أعضاء الجسم مهم جداً في المحادثات اليومية وعند زيارة الطبيب.\nللتعبير عن الألم نستخدم: Me duele (يؤلمني)\n- Me duele la cabeza = رأسي يؤلمني\n- Me duele el estómago = معدتي تؤلمني\n\nانتبه: Nariz (الأنف) مؤنث في الإسبانية رغم أن (الأنف) في العربية مذكر!`,
-        comparativeCard: {
-          spanish: "La nariz (مؤنث) / El brazo (مذكر)",
-          arabic: "الأنف (مذكر) / الذراع (مؤنث في الفصحى)",
-          explanation: "Varios nombres del cuerpo cambian de género entre árabe y español — otro ejemplo del fenómeno de inversión de género que vimos en la lección 1."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Cómo se dice 'me duele la cabeza' en español?",
-          questionAr: "كيف نقول 'رأسي يؤلمني' بالإسبانية؟",
-          options: ["Tengo dolor cabeza", "Me duele la cabeza", "La cabeza me hace mal"],
-          correctAnswer: "Me duele la cabeza",
-          arabicGrammarTip: "للتعبير عن الألم: Me duele + أداة التعريف + اسم العضو."
-        }
-      }
-    ]
-  },
-  {
-    id: "l20",
-    title: "La Ciudad y los Transportes",
-    titleAr: "المدينة ووسائل النقل",
-    description: "Aprende a moverte por una ciudad española: preguntar direcciones y usar el transporte público.",
-    descriptionAr: "تعلم كيف تتنقل في مدينة إسبانية: طلب الاتجاهات واستخدام وسائل النقل.",
-    category: "Culture",
-    level: "A2",
-    xpReward: 85,
-    steps: [
-      {
-        type: "theory",
-        title: "Pedir y dar direcciones (طلب الاتجاهات وإعطاؤها)",
-        content: `Frases esenciales para moverte por la ciudad:\n\n**Preguntar:**\n- ¿Dónde está la estación de metro? (أين محطة المترو؟)\n- ¿Cómo llego a...? (كيف أصل إلى...؟)\n- ¿Está lejos? (هل هو بعيد؟)\n\n**Indicar:**\n- Todo recto (على طول)\n- A la derecha (على اليمين)\n- A la izquierda (على اليسار)\n- Gira en la esquina (انعطف عند الزاوية)\n- Está cerca/lejos (إنه قريب/بعيد)\n\n**Transporte:**\n- Metro (مترو) / Autobús (حافلة) / Taxi (تاكسي) / Tren (قطار)`,
-        contentAr: `للتنقل في المدن الإسبانية، ستحتاج هذه التعبيرات بشكل يومي.\nالكلمات المفيدة للاتجاهات:\n- Todo recto = على طول / مستقيماً\n- A la derecha = على اليمين\n- A la izquierda = على اليسار\n\nكلمة Metro (مترو) وTaxi (تاكسي) موجودتان في العربية أيضاً — هذا يسهل الأمر!`,
-        comparativeCard: {
-          spanish: "Metro / Taxi / Autobús",
-          arabic: "مترو / تاكسي / أتوبيس",
-          explanation: "Muchos términos de transporte urbano son préstamos internacionales que suenan casi idénticos en árabe y español, facilitando su aprendizaje."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Cómo preguntas dónde está la estación de tren?",
-          questionAr: "كيف تسأل عن مكان محطة القطار؟",
-          options: ["¿Cómo es la estación de tren?", "¿Dónde está la estación de tren?", "¿Cuándo está la estación de tren?"],
-          correctAnswer: "¿Dónde está la estación de tren?",
-          arabicGrammarTip: "للسؤال عن مكان شيء ما نستخدم: ¿Dónde está + الشيء؟"
-        }
-      }
-    ]
-  },
-  {
-    id: "l21",
-    title: "El Pretérito Indefinido: Acciones Pasadas",
-    titleAr: "الماضي البسيط: الأحداث المنتهية",
-    description: "Aprende a hablar de acciones completadas en el pasado con el pretérito indefinido.",
-    descriptionAr: "تعلم كيف تتحدث عن الأحداث المنتهية في الماضي باستخدام الماضي البسيط.",
-    category: "Grammar",
-    level: "A2",
-    xpReward: 95,
-    steps: [
-      {
-        type: "theory",
-        title: "Pretérito Indefinido de verbos -AR",
-        content: `El pretérito indefinido se usa para acciones **completadas** en el pasado. Para verbos -AR:\n\nYo → **-é** (hablé)\nTú → **-aste** (hablaste)\nÉl → **-ó** (habló)\nNosotros → **-amos** (hablamos)\nVosotros → **-asteis** (hablasteis)\nEllos → **-aron** (hablaron)\n\nSeñales temporales: ayer (أمس), la semana pasada (الأسبوع الماضي), en 2020 (عام 2020), hace dos días (منذ يومين).`,
-        contentAr: `الماضي البسيط (Pretérito Indefinido) يستخدم للأحداث المنتهية تماماً في الماضي.\nللأفعال المنتهية بـ -AR، نستبدل النهاية بما يلي:\n- أنا (Yo): -é مثال: hablé (تحدثت)\n- أنت (Tú): -aste مثال: hablaste (تحدثت أنت)\n- هو (Él): -ó مثال: habló (تحدث)\n\nكلمات مفيدة تشير لهذا الزمن:\n- Ayer (أمس)\n- La semana pasada (الأسبوع الماضي)`,
-        comparativeCard: {
-          spanish: "Ayer hablé con mi familia (أمس تحدثت مع عائلتي)",
-          arabic: "تحدثت مع عائلتي أمس",
-          explanation: "El pretérito indefinido equivale al الماضي البسيط árabe para acciones puntuales y completadas en el pasado."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Cómo se conjuga 'trabajar' en pretérito indefinido para 'Yo'?",
-          questionAr: "كيف نصرف فعل 'trabajar' في الماضي البسيط مع ضمير 'Yo'؟",
-          options: ["Yo trabajaba", "Yo trabajé", "Yo he trabajado"],
-          correctAnswer: "Yo trabajé",
-          arabicGrammarTip: "مع ضمير Yo في الماضي البسيط لأفعال -AR، نضيف -é: trabaj + é = trabajé."
-        }
-      }
-    ]
-  },
-  {
-    id: "l22",
-    title: "Las Preposiciones: En, A, De, Con",
-    titleAr: "حروف الجر الأساسية",
-    description: "Domina las preposiciones más usadas del español y evita los errores típicos de traducción literal.",
-    descriptionAr: "أتقن حروف الجر الأكثر استخداماً وتجنب أخطاء الترجمة الحرفية.",
-    category: "Grammar",
-    level: "A2",
-    xpReward: 85,
-    steps: [
-      {
-        type: "theory",
-        title: "Las preposiciones principales",
-        content: `Las preposiciones en español no siempre corresponden a las árabes:\n\n- **En** (في): Estoy **en** casa. Vivo **en** Madrid.\n- **A** (إلى / الـ): Voy **a** la tienda. Llego **a** las 3.\n- **De** (من / لـ): Soy **de** Marruecos. El libro **de** Juan.\n- **Con** (مع): Vivo **con** mi familia.\n- **Por** (بسبب / por): Gracias **por** todo.\n- **Para** (لـ / من أجل): Este regalo es **para** ti.\n\nAtención: **a + el = al** (a + el libro = **al** libro)\n**de + el = del** (de + el mercado = **del** mercado)`,
-        contentAr: `حروف الجر الإسبانية تختلف أحياناً عن نظيراتها العربية وتحتاج حفظاً جيداً.\nأهم قاعدة: عندما تلتقي حرف الجر A مع أداة التعريف El، يتحدان:\nA + El = AL (وليس A el)\nوكذلك: De + El = DEL\nمثال: Voy al mercado (أذهب إلى السوق)\nمثال: Vengo del trabajo (أتيت من العمل)`,
-        comparativeCard: {
-          spanish: "Voy al mercado / Vengo del trabajo",
-          arabic: "أذهب إلى السوق / أتيت من العمل",
-          explanation: "Las contracciones al (a+el) y del (de+el) son obligatorias en español — no existe equivalente en árabe donde los elementos no se fusionan."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Cómo se dice 'voy al mercado' correctamente?",
-          questionAr: "ما هي الصيغة الصحيحة لعبارة 'أذهب إلى السوق'؟",
-          options: ["Voy a el mercado", "Voy al mercado", "Voy del mercado"],
-          correctAnswer: "Voy al mercado",
-          arabicGrammarTip: "A + el = al (إجباري في الإسبانية). لا يجوز قول 'a el' أبداً، بل يجب دمجهما: al."
-        }
-      }
-    ]
-  },
-  {
-    id: "l23",
-    title: "Saludos y Despedidas Formales e Informales",
-    titleAr: "التحيات والوداع الرسمية وغير الرسمية",
-    description: "Aprende cuándo usar saludos formales e informales y las fórmulas culturales españolas.",
-    descriptionAr: "تعلم متى تستخدم التحيات الرسمية وغير الرسمية والأعراف الثقافية الإسبانية.",
-    category: "Culture",
-    level: "A1",
-    xpReward: 70,
-    steps: [
-      {
-        type: "theory",
-        title: "Saludos formales e informales",
-        content: `En español existe una distinción importante entre el trato formal e informal:\n\n**Informal (Tú) — con amigos y familia:**\n- ¡Hola! / ¿Qué tal? / ¿Cómo estás?\n- ¡Hasta luego! / ¡Adiós! / ¡Chao!\n\n**Formal (Usted) — con desconocidos, jefes, mayores:**\n- Buenos días / Buenas tardes / Buenas noches\n- ¿Cómo está usted?\n- Hasta luego / Un placer\n\n**Costumbre española:** los españoles se dan **dos besos** al saludarse (mejilla derecha primero), incluso con desconocidos.`,
-        contentAr: `في الإسبانية، كما في العربية، هناك فرق بين الخطاب الرسمي وغير الرسمي:\n- مع الأصدقاء والعائلة: نستخدم Tú (أنت غير رسمي)\n- مع الغرباء والكبار والمسؤولين: نستخدم Usted (أنت رسمي)\n\nعادة اجتماعية مهمة: الإسبان يتبادلون قبلتين على الخد عند التحية (الخد الأيمن أولاً)، حتى مع من يلتقونهم لأول مرة!`,
-        comparativeCard: {
-          spanish: "Tú (غير رسمي) / Usted (رسمي)",
-          arabic: "أنت مع الأصدقاء / حضرتك أو سيادتك مع الرسميين",
-          explanation: "Ambas lenguas distinguen el trato formal del informal, aunque el español lo marca principalmente con el pronombre (tú/usted) mientras el árabe usa formas más variadas."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Qué saludo usas al conocer a tu nuevo jefe por primera vez?",
-          questionAr: "ما هي التحية المناسبة عند مقابلة رئيسك الجديد لأول مرة؟",
-          options: ["¡Hola! ¿Qué tal?", "Buenos días, ¿cómo está usted?", "¡Buenas! ¿Cómo estás?"],
-          correctAnswer: "Buenos días, ¿cómo está usted?",
-          arabicGrammarTip: "مع الرؤساء والغرباء، نستخدم الصيغة الرسمية Usted وليس Tú غير الرسمي."
-        }
-      }
-    ]
-  },
-  {
-    id: "l24",
-    title: "El Diminutivo: -ito e -ita",
-    titleAr: "صيغة التصغير: -ito و-ita",
-    description: "Descubre el uso del diminutivo español, una forma de afecto y suavidad muy cultural.",
-    descriptionAr: "اكتشف استخدام صيغة التصغير الإسبانية، أسلوب ثقافي للتعبير عن المودة.",
-    category: "Culture",
-    level: "A2",
-    xpReward: 80,
-    steps: [
-      {
-        type: "theory",
-        title: "Los diminutivos en español",
-        content: `El diminutivo se forma añadiendo **-ito** (masculino) o **-ita** (femenino) al sustantivo:\n\n- Casa → Casita (بيت صغير / حبيبي)\n- Café → Cafecito (قهوة صغيرة / قهوة بالمحبة)\n- Momento → Momentito (لحظة صغيرة / لحظيكة)\n- Perro → Perrito (كلب صغير)\n- Abuela → Abuelita (جدة عزيزة)\n\nEl diminutivo no solo indica tamaño pequeño — también expresa **cariño y afecto**. Una madre llama "hijito" a su hijo aunque sea adulto.`,
-        contentAr: `صيغة التصغير في الإسبانية (-ito/-ita) تشبه إلى حد ما التصغير في العربية الفصحى.\nلكن الفرق الكبير: في الإسبانية التصغير يُستخدم كثيراً للتعبير عن المودة والحنان وليس فقط للدلالة على الحجم الصغير!\nمثال: Mamá, dame un besito (أماه، أعطيني قبلة صغيرة) = تعبير عن الحب والدلال\nEspérame un momentito (انتظرني لحظيكة) = تخفيف الطلب وإضفاء اللطف`,
-        comparativeCard: {
-          spanish: "Un momentito / Abuelita / Cafecito",
-          arabic: "لحظيكة / جدتي الحبيبة / قهوة صغيرة",
-          explanation: "El diminutivo español tiene una función afectiva similar a las formas de cariño árabe como استخدام 'حبيبي' o الاسم مع 'يا' — ambas culturas suavizan el lenguaje con el cariño."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Qué forma diminutiva de 'café' usarías para pedir amablemente un café pequeño?",
-          questionAr: "ما هي صيغة التصغير لكلمة 'café' للطلب بطريقة لطيفة؟",
-          options: ["Cafito", "Cafecito", "Cafésito"],
-          correctAnswer: "Cafecito",
-          arabicGrammarTip: "عندما تنتهي الكلمة بحرف متحرك، نضيف -cito/-cita: café → cafecito."
-        }
-      }
-    ]
-  },
-  {
-    id: "l25",
-    title: "El Subjuntivo: Deseos y Emociones",
-    titleAr: "صيغة الرغبة والأمنيات: المضارع المنصوب",
-    description: "Introducción al subjuntivo español para expresar deseos, dudas y emociones.",
-    descriptionAr: "مقدمة للمضارع المنصوب الإسباني للتعبير عن الرغبات والشك والمشاعر.",
-    category: "Grammar",
-    level: "A2",
-    xpReward: 100,
-    steps: [
-      {
-        type: "theory",
-        title: "¿Qué es el subjuntivo?",
-        content: `El subjuntivo es un modo verbal que expresa **subjetividad**: deseos, dudas, emociones y posibilidades. Se activa después de ciertas expresiones:\n\n- **Quiero que** + subjuntivo: Quiero que **vengas** (أريد أن تأتي)\n- **Espero que** + subjuntivo: Espero que **llegues** pronto\n- **Es importante que** + subjuntivo\n- **Ojalá** + subjuntivo: Ojalá **apruebe** (إن شاء الله أنجح)\n\nFormación básica para verbos -AR: quita el -o de la forma Yo y añade: -e, -es, -e, -emos, -éis, -en`,
-        contentAr: `المضارع المنصوب (Subjuntivo) هو أحد أصعب جوانب الإسبانية للمتعلم العربي.\nيُستخدم للتعبير عن:\n- الرغبات: Quiero que vengas (أريد أن تأتي)\n- الأمنيات: Ojalá apruebe (إن شاء الله أنجح) ← لاحظ الرابط بـ"إن شاء الله"!\n- المشاعر: Me alegra que estés aquí (يسعدني أن تكون هنا)\n\nكلمة Ojalá التي تعلمناها في درس سابق تطلب دائماً هذه الصيغة!`,
-        comparativeCard: {
-          spanish: "Ojalá apruebe el examen",
-          arabic: "إن شاء الله أنجح في الامتحان",
-          explanation: "Ojalá (من 'لو شاء الله') siempre va seguido de subjuntivo — un lazo directo entre la herencia árabe y la gramática española moderna."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "Completa: 'Espero que tú ___ bien' (أتمنى أن تكون بخير)",
-          questionAr: "أكمل الجملة باستخدام المضارع المنصوب الصحيح للفعل 'estar':",
-          options: ["estás", "estés", "estabas"],
-          correctAnswer: "estés",
-          arabicGrammarTip: "بعد Espero que نستخدم المضارع المنصوب: estar → estés (للمخاطب)."
-        }
-      }
-    ]
-  },
-  {
-    id: "l26",
-    title: "Las Profesiones y el Trabajo",
-    titleAr: "المهن والعمل",
-    description: "Vocabulario de profesiones y frases útiles para hablar de tu trabajo en español.",
-    descriptionAr: "مفردات المهن وعبارات مفيدة للحديث عن عملك بالإسبانية.",
-    category: "Culture",
-    level: "A2",
-    xpReward: 80,
-    steps: [
-      {
-        type: "theory",
-        title: "Profesiones comunes (المهن الشائعة)",
-        content: `Las profesiones en español tienen forma masculina y femenina:\n\n- Médico / Médica (طبيب/طبيبة)\n- Profesor / Profesora (أستاذ/أستاذة)\n- Ingeniero / Ingeniera (مهندس/مهندسة)\n- Abogado / Abogada (محامي/محامية)\n- Enfermero / Enfermera (ممرض/ممرضة)\n- Cocinero / Cocinera (طباخ/طباخة)\n- Periodista (صحفي/ة) — ¡invariable!\n\n**Para decir tu profesión con SER:**\nSoy médico / Soy profesora\n¡Sin artículo! (no se dice "Soy un médico")`,
-        contentAr: `المهن في الإسبانية تأخذ شكلين: مذكر ومؤنث، كما في العربية تماماً!\nلكن هناك فرق مهم: عند تعريف نفسك بمهنتك في الإسبانية، لا تستخدم أداة التعريف:\n- Soy médico (أنا طبيب) ← صح\n- Soy un médico (أنا طبيب) ← خطأ شائع!\n\nهذا عكس الإنكليزية التي تقول "I am a doctor" بأداة التنكير.`,
-        comparativeCard: {
-          spanish: "Soy médico (بدون أداة تعريف)",
-          arabic: "أنا طبيب (بدون أداة تعريف كذلك)",
-          explanation: "En este caso el español y el árabe coinciden: ambos omiten el artículo al declarar la profesión con el verbo ser/كان, a diferencia del inglés."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Cuál es la forma correcta de decir tu profesión?",
-          questionAr: "أي الجمل صحيحة للتعبير عن مهنتك؟",
-          options: ["Soy un ingeniero", "Soy ingeniero", "Estoy ingeniero"],
-          correctAnswer: "Soy ingeniero",
-          arabicGrammarTip: "للتعبير عن المهنة نستخدم SER بدون أداة تعريف: Soy + المهنة مباشرة."
-        }
-      }
-    ]
-  },
-  {
-    id: "l27",
-    title: "Al-Ándalus: Historia Compartida",
-    titleAr: "الأندلس: التاريخ المشترك",
-    description: "Conoce la fascinante historia de 800 años de convivencia árabe-española que moldea el idioma hasta hoy.",
-    descriptionAr: "اكتشف التاريخ الرائع لـ800 عام من التعايش العربي الإسباني الذي يشكل اللغة حتى اليوم.",
-    category: "Culture",
-    level: "A2",
-    xpReward: 110,
-    steps: [
-      {
-        type: "theory",
-        title: "El legado de Al-Ándalus (إرث الأندلس)",
-        content: `Entre los años 711 y 1492, la mayor parte de la Península Ibérica estuvo bajo dominio árabe-bereber, en un período llamado **Al-Ándalus**.\n\nEste período dejó una huella enorme en España:\n- **Más de 4.000 palabras** españolas de origen árabe\n- **Arquitectura**: La Alhambra de Granada, la Mezquita de Córdoba\n- **Ciencia**: álgebra, algoritmo, alquimia, alambique\n- **Agricultura**: acequia, noria, alberca\n- **Gastronomía**: aceite, arroz, azúcar, azafrán\n\nCórdoba fue durante siglos la ciudad más avanzada de Europa occidental.`,
-        contentAr: `من عام 711 إلى 1492م، حكم العرب والبربر معظم شبه الجزيرة الإيبيرية في عصر أطلق عليه "الأندلس".\nكانت قرطبة (Córdoba) عاصمة علمية وثقافية لا مثيل لها في أوروبا آنذاك، بمكتباتها التي تضم مئات الآلاف من المخطوطات.\nهذا التعايش الحضاري ترك بصمة لا تمحى في اللغة الإسبانية، والعمارة، والعلوم، والمطبخ.`,
-        comparativeCard: {
-          spanish: "La Alhambra = القلعة الحمراء (Al-Hamra)",
-          arabic: "الحمراء → أجمل قصر في أوروبا",
-          explanation: "El nombre 'Alhambra' proviene del árabe 'Al-Qal'a Al-Hamra' (القلعة الحمراء), la fortaleza roja — un monumento vivo al legado andalusí."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Cuántos años aproximadamente duró la presencia árabe en Al-Ándalus?",
-          questionAr: "كم سنة تقريباً استمر الوجود العربي في الأندلس؟",
-          options: ["200 años", "500 años", "800 años"],
-          correctAnswer: "800 años",
-          arabicGrammarTip: "من 711 إلى 1492م = حوالي 800 عام من التعايش الحضاري الذي أثرى اللغة الإسبانية."
-        }
-      }
-    ]
-  },
-  {
-    id: "l28",
-    title: "Los Conectores: Pero, Porque, Aunque",
-    titleAr: "أدوات الربط: لكن، لأن، رغم أن",
-    description: "Aprende a conectar ideas en español usando los conectores más frecuentes.",
-    descriptionAr: "تعلم كيف تربط الأفكار في الإسبانية باستخدام أدوات الربط الأكثر شيوعاً.",
-    category: "Grammar",
-    level: "A2",
-    xpReward: 85,
-    steps: [
-      {
-        type: "theory",
-        title: "Conectores esenciales",
-        content: `Los conectores unen ideas y dan fluidez al discurso:\n\n**Contraste:**\n- **Pero** (لكن): Me gusta el café, **pero** prefiero el té.\n- **Sin embargo** (ومع ذلك): Es difícil; **sin embargo**, es posible.\n- **Aunque** (رغم أن / على الرغم): **Aunque** llueve, salgo.\n\n**Causa:**\n- **Porque** (لأن): No vine **porque** estaba enfermo.\n- **Como** (بما أن): **Como** no había bus, fui a pie.\n\n**Consecuencia:**\n- **Por eso** (لذلك): Estudié mucho, **por eso** aprobé.\n- **Entonces** (إذن): **Entonces**, ¿qué hacemos?`,
-        contentAr: `أدوات الربط تجعل لغتك أكثر طلاقة وطبيعية.\nأهمها للمتعلم العربي:\n- Pero = لكن (للتعبير عن التناقض)\n- Porque = لأن (للتعبير عن السبب)\n- Aunque = رغم أن (للتعبير عن الاستدراك)\n- Por eso = لذلك (للتعبير عن النتيجة)\n\nلاحظ: Porque (لأن) يختلف عن ¿Por qué? (لماذا؟) في الكتابة والنطق!`,
-        comparativeCard: {
-          spanish: "Porque (لأن) / ¿Por qué? (لماذا؟)",
-          arabic: "لأن (سبب) / لماذا؟ (سؤال)",
-          explanation: "Porque y ¿Por qué? suenan similar pero son opuestos: uno es respuesta (causa) y el otro es pregunta. Como en árabe لأن/لماذا."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Qué conector usas para explicar una causa? 'No fui al trabajo ___ estaba enfermo'",
-          questionAr: "أي أداة ربط تستخدم للتعبير عن السبب في هذه الجملة؟",
-          options: ["pero", "aunque", "porque"],
-          correctAnswer: "porque",
-          arabicGrammarTip: "Porque = لأن، يُستخدم للتعبير عن السبب والتعليل في الجملة."
-        }
-      }
-    ]
-  },
-  {
-    id: "l29",
-    title: "La Vivienda y el Hogar",
-    titleAr: "السكن والمنزل",
-    description: "Vocabulario esencial para hablar de tu casa, buscar piso y describir tu hogar en España.",
-    descriptionAr: "مفردات أساسية للحديث عن منزلك والبحث عن شقة ووصف مسكنك في إسبانيا.",
-    category: "Culture",
-    level: "A2",
-    xpReward: 80,
-    steps: [
-      {
-        type: "theory",
-        title: "Partes de la casa (أجزاء المنزل)",
-        content: `Vocabulario clave de la vivienda:\n\n**Tipos de vivienda:**\n- Piso/Apartamento (شقة)\n- Casa (منزل/بيت)\n- Habitación (غرفة)\n\n**Partes:**\n- Salón/Sala de estar (غرفة المعيشة)\n- Cocina (مطبخ)\n- Dormitorio (غرفة النوم)\n- Baño (حمام)\n- Balcón (شرفة)\n\n**Buscar piso:**\n- ¿Cuánto es el alquiler? (كم الإيجار؟)\n- ¿Está amueblado? (هل هو مفروش؟)\n- ¿Hay calefacción? (هل يوجد تدفئة؟)\n\nCuriosidad: **Alquiler** viene del árabe **الكراء** — ¡ya lo aprendiste!`,
-        contentAr: `مفردات المنزل مهمة جداً للحياة اليومية في إسبانيا.\nتذكر: كلمة Alquiler (إيجار) من الدرس السابق عن الأندلس!\n\nعند البحث عن شقة ستحتاج:\n- ¿Cuánto es el alquiler? (كم الإيجار؟)\n- ¿Está amueblado? (هل المنزل مفروش؟)\n- ¿Cuántas habitaciones tiene? (كم عدد الغرف؟)`,
-        comparativeCard: {
-          spanish: "Alquiler (إيجار) del árabe Al-kira (الكراء)",
-          arabic: "الكراء / الإيجار",
-          explanation: "Una de las palabras más prácticas para vivir en España — y tiene raíz árabe directa que ya conoces."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Cómo preguntas el precio del alquiler de un piso?",
-          questionAr: "كيف تسأل عن سعر إيجار الشقة؟",
-          options: ["¿Cómo es el alquiler?", "¿Cuánto es el alquiler?", "¿Dónde es el alquiler?"],
-          correctAnswer: "¿Cuánto es el alquiler?",
-          arabicGrammarTip: "للسؤال عن السعر نستخدم ¿Cuánto? (كم؟) + es + الشيء."
-        }
-      }
-    ]
-  },
-  {
-    id: "l30",
-    title: "La Salud y el Médico",
-    titleAr: "الصحة والطبيب",
-    description: "Vocabulario y frases esenciales para visitar al médico y hablar de salud en España.",
-    descriptionAr: "مفردات وعبارات أساسية لزيارة الطبيب والحديث عن الصحة في إسبانيا.",
-    category: "Culture",
-    level: "A2",
-    xpReward: 90,
-    steps: [
-      {
-        type: "theory",
-        title: "En la consulta médica (في عيادة الطبيب)",
-        content: `Frases esenciales para el médico:\n\n**Síntomas:**\n- Me duele la cabeza/el estómago (رأسي/معدتي تؤلمني)\n- Tengo fiebre (عندي حمى)\n- Tengo tos (عندي سعال)\n- Me encuentro mal (أشعر بتعب)\n- Estoy mareado/a (أشعر بدوار)\n\n**En la consulta:**\n- Necesito ver al médico (أحتاج رؤية الطبيب)\n- ¿Tiene cita? (هل لديك موعد؟)\n- Abra la boca (افتح فمك)\n- Respire hondo (خذ نفساً عميقاً)\n- Le receto... (سأصف لك...)\n\n**Sistema sanitario:** En España existe la **Seguridad Social** — sanidad pública universal y gratuita.`,
-        contentAr: `زيارة الطبيب من المواقف الأساسية في الحياة اليومية.\nعبارات مهمة يجب حفظها:\n- Tengo fiebre = عندي حمى (نستخدم TENER وليس SER)\n- Me duele + العضو = يؤلمني...\n- Me encuentro mal = أشعر بتعب (تعبير شائع جداً)\n\nمعلومة ثقافية مهمة: إسبانيا تمتلك نظام صحي عام مجاني (Seguridad Social) يمكن الوصول إليه بعد التسجيل في البلدية (empadronamiento).`,
-        comparativeCard: {
-          spanish: "Tengo fiebre / Me duele la garganta",
-          arabic: "عندي حمى / حلقي يؤلمني",
-          explanation: "Para síntomas físicos el español usa TENER (fiebre, tos) o el verbo DOLER (duele) — dos estructuras distintas que hay que memorizar para comunicarse con el médico."
-        }
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Cómo dices que tienes fiebre al médico?",
-          questionAr: "كيف تخبر الطبيب بأن لديك حمى؟",
-          options: ["Estoy fiebre", "Soy fiebre", "Tengo fiebre"],
-          correctAnswer: "Tengo fiebre",
-          arabicGrammarTip: "للأعراض الجسدية مثل الحمى والسعال نستخدم TENER: Tengo fiebre / Tengo tos."
+          correctAnswer: "Vaya con Dios",
+          arabicGrammarTip: "توضح هذه العبارة الروابط الأخلاقية العميقة المتبقية من لغة الضيافة والتجارة الأندلسية."
         }
       }
     ]
