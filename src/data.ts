@@ -12,7 +12,7 @@ export const TUTORS: Tutor[] = [
     tagline: "¡La gramática española es más fácil si entiendes tu propio idioma!"
   },
   {
-    id: "jamal", // Corregido de "carlos" a "jamal" para mantener coherencia
+    id: "jamal", 
     name: "Profesor Jamal",
     avatar: "👨‍🏫",
     level: "Nivel Intermedio (A2-B1)",
@@ -88,8 +88,8 @@ export const DAILY_WORDS = [
 export const LESSONS: Lesson[] = [
   {
     id: "l1",
-    title: "El Choque de Géneros Gramaticales (انعكاس الجنس)", // Corregido typo árabe
-    titleAr: "عكس الجنس بين الإسبانية والعربية",
+    title: "El Choque de Géneros Gramaticales (انعكاس الجنس)", 
+    titleAr: "عكس الجنس entre الإسبانية والعربية",
     description: "Aprende cómo algunos sustantivos cambian de masculino a femenino entre árabe y español.",
     descriptionAr: "تعلم كيف ينعكس جنس الكلمات (الذكر والأنثى) بين اللغتين لتفادي الأخطاء الشائعة.",
     category: "Grammar",
@@ -159,7 +159,7 @@ Esto suele causar mucha confusión al principio. Veamos dos ejemplos icónicos d
     title: "Ser y Estar vs La Oración Nominal Árabe",
     titleAr: "أفعال الكينونة مقابل الجملة الاسمية",
     description: "Comprende la diferencia entre 'ser' (permanente) y 'estar' (temporal) frente a la oración nominal sin verbo.",
-    descriptionAr: "افهم الفرق بين الفعلين Ser y Estar واللذين يقابلان الجملة الاسمية في العربية بدون فعل.",
+    descriptionAr: "افهم الفرق entre الفعلين Ser y Estar واللذين يقابلان الجملة الاسمية في العربية بدون فعل.",
     category: "Grammar",
     level: "A1",
     xpReward: 100,
@@ -186,7 +186,7 @@ En español es **obligatorio** usar un verbo puente cobrando vida en dos variant
         type: "exercise",
         exercise: {
           question: "Si quieres decir 'Yo soy de Marruecos' (origen permanente), ¿cuál usas?",
-          questionAr: "إذا أردت قول 'أنا من المغرب' (تعريف بالأصل والمنشأ)، أي فعل كينونة تستخدم؟",
+          questionAr: "إذا أردت قول 'أنا من المغرب' (تعريف بالأصل والمنشأ)، أي فعل كينونة تستخدم？",
           options: [
             "Yo estoy de Marruecos",
             "Yo soy de Marruecos",
@@ -199,8 +199,8 @@ En español es **obligatorio** usar un verbo puente cobrando vida en dos variant
       {
         type: "exercise",
         exercise: {
-          question: "Si quieres expresar tu estado actual 'Estoy cansado hoy' (حالة مؤقتة), ¿cuál usas?",
-          questionAr: "للتعبير عن حالة مؤقتة مثل 'أنا متعب اليوم'، أي العبارات أصح？",
+          question: "Si quieres expresar tu estado actual 'Estoy cansado hoy' (hace un momento), ¿cuál usas?",
+          questionAr: "للتعبير عن حالة مؤقتة مثل 'أنا متعب اليوم'، أي العبارات أصح؟",
           options: [
             "Soy cansado hoy",
             "Estoy cansado hoy",
@@ -273,7 +273,7 @@ Muchas de estas palabras empiezan con **'al-'** (que corresponde al artículo á
     title: "Ojalá vs Insh'Allah y Cortesía",
     titleAr: "إن شاء الله والتعابير الثقافية المشتركة",
     description: "Conoce el origen de la expresión de deseo española más famosa y las fórmulas de hospitalidad cortesana.",
-    descriptionAr: "تعرف على تعابير التمني والترحيب والروابط الثقافية العميقة التي تجعل الإسبان يتحدثون كالعرب.",
+    descriptionAr: "تعرف على تعابير التمني والترحيب والروابط الثقافية العميقة التي تجعل الإسبan يتحدثون كالعرب.",
     category: "Culture",
     level: "A2",
     xpReward: 90,
@@ -283,7 +283,7 @@ Muchas de estas palabras empiezan con **'al-'** (que corresponde al artículo á
         title: "Ojalá: La herencia de la fe",
         content: `La palabra **Ojalá** es una de las palabras hispanas más cargadas de historia. Se utiliza de manera universal para expresar deseos vivos o anhelos y va siempre acompañada del modo subjuntivo.
         
-Deriva directamente de la frase árabe **'law sha' Allah' (لَوْ شَاءَ اللَّهُ)**, que significa 'si Dios quiere' o 'ojalá que Dios quiera'. Su calco de significado y expresión es idéntico al 'Inshallah' árabe moderno.`,
+Deriva directamente de la frase árabe **'law sha' Allah' (لَوْ شَاءَ اللَّهُ)**, que significa 'si Dios quiere' o 'ojalá que Dios quiera'. Su calco de significado y expression es idéntico al 'Inshallah' árabe moderno.`,
         contentAr: `كلمة "Ojalá" الشهيرة التي يستخدمها متحدثو الإسبانية للتمني من قلوبهم ليست سوى النطق الأندلسي لـ "لو شاء الله". 
 وتأتي دائماً متبوعة بصيغة المتكلم الغائب الملتزم Subjuntivo لتوضيح الأمل أو الرغبة الحارة.`,
         comparativeCard: {
@@ -435,7 +435,7 @@ Esto equivale con precisión absoluta al 'Bil-hana' wa-sh-shifa'' (بالهنا�
     title: "El Sistema Vocálico Español vs Árabe",
     titleAr: "النظام الصوتي للحركات: الإسبانية مقابل العربية",
     description: "Domina el triángulo rígido de las 5 vocales hispanas y evita las confusiones comunes entre E/I y O/U.",
-    descriptionAr: "تقن حركات التشكيل الخمس in الإسبانية متغلباً على الخلط الشائع بين الكسرة والياء والضمة والواو.",
+    descriptionAr: "أتقن حركات التشكيل الخمس في الإسبانية متغلباً على الخلط الشائع بين الكسرة والياء والضمة والواو.",
     category: "Grammar",
     level: "B1",
     xpReward: 110,
@@ -472,7 +472,7 @@ En español, no existen las variaciones sutiles (alófonos); una 'E' siempre es 
             "No hay ningún error, significan exactamente lo mismo"
           ],
           correctAnswer: "Estás sustituyendo la 'E' por la 'I' (típico cruce de Kasra)",
-          arabicGrammarTip: "تذكر: حرف E بالإسبانية ينطق بفتح الفم أفقياً أكثر من الكسرة العربية الهابطة."
+          arabicGrammarTip: "تذكر: حرف E بالإسبانية ينطق بفتح الفm أفقياً أكثر من الكسرة العربية الهابطة."
         }
       },
       {
@@ -497,7 +497,7 @@ En español, no existen las variaciones sutiles (alófonos); una 'E' siempre es 
             "Puso"
           ],
           correctAnswer: "Piso",
-          arabicGrammarTip: "كلمة Piso تعني شقة بكسr الباء الصامتة (I), mientras que Peso significa peso (de pesar o kilos)."
+          arabicGrammarTip: "كلمة Piso تعني شقة بكسر الباء الصامتة (I), mientras que Peso significa peso (de pesar o kilos)."
         }
       }
     ]
@@ -530,7 +530,7 @@ No temas raspar un poco la garganta: **Jefe** debe sonar con la potencia de la �
       {
         type: "exercise",
         exercise: {
-          question: "¿Con cuál fonema árabe se equipara óptimamente el sonido de la 'J' o de la 'G' (ante 'e', 'i')?",
+          question: "@Con cuál fonema árabe se equipara óptimamente el sonido de la 'J' o de la 'G' (ante 'e', 'i')?",
           questionAr: "أي الحروف العربية يكافئ بدقة مخرج الصوت لحرف J بالإسبانية؟",
           options: [
             "Hā' (هـ)",
@@ -579,7 +579,7 @@ Intentar pronunciarla como una 'هـ' (Hā') es un marcador de acento muy eviden
     title: "El Comercio y el Arte del Regatear",
     titleAr: "التجارة وتراث المساومة الأندلسية المشتركة",
     description: "Explora la herencia andalusí en el lenguaje comercial, mercantil y las formas sociales de negociación.",
-    descriptionAr: "اكتشف الإرث الأندلسي في لغة السوق والمعاملات الاقتصادية وعادات المساومة المشتركة entre الثقافتين.",
+    descriptionAr: "اكتشف الإرث الأندلسي في لغة السوق والمعاملات الاقتصادية وعادات المساومة المشتركة بين الثقافتين.",
     category: "Culture",
     level: "B1",
     xpReward: 100,
@@ -626,21 +626,7 @@ Intentar pronunciarla como una 'هـ' (Hā') es un marcador de acento muy eviden
 Tanto en España como en Medio Oriente, el trato cercano y cálido con el tendero es primordial. Al cerrar un acuerdo comercial, se conserva este respeto recíproco. 
 Por ejemplo, despedirse diciendo: **'Vaya con Dios'** o **'Que Dios le guarde'** es un calco directo de la cortesía árabe al comerciante: **'Fi amanillah' (في أمان الله)** o **'Allah yafazak' (الله يحفظك)**.`,
         contentAr: `المساومة (Regatear) في الأسواق التقليدية لم تكن مجرد مفاصلة مادية جافة، بل كانت طقساً للتواصل الاجتماعي وبناء مودة إنسانية.
-يظهر التماثل اليوم بمقولات التمني بالبركة والخير مثل "Vaya con Dios" (اذهب مع الله) التي تقابلها تماماً تعابير التوديع والبركة العربية كـ "في أمان الله" أو "الله يبارك فيك".`
-      },
-      {
-        type: "exercise",
-        exercise: {
-          question: "¿Qué frase de cortesía comercial española es un calco directo de 'Fi amanillah' (في أمان الله)?", // Completado el corte de tu archivo
-          questionAr: "أي من عبارات التوديع التجارية في الإسبانية تعد محاكاة لثقافة التمني بالبركة؟",
-          options: [
-            "Págueme ahora",
-            "Vaya con Dios",
-            "No hay rebaja"
-          ],
-          correctAnswer: "Vaya con Dios",
-          arabicGrammarTip: "توضح هذه العبارة الروابط الأخلاقية العميقة المتبقية من لغة الضيافة والتجارة الأندلسية."
-        }
+يظهر التماثل اليوم بمقولات التمني بالبركة والخير مثل "Vaya con Dios" (اذهب مع الله) التي تقابلها تماماً تعابير التوديع والبركة العربية كـ "في أمان الله" أو "الله يحفظك".`
       }
     ]
   }
